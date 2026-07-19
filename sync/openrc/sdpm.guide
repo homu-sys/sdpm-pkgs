@@ -1,0 +1,11 @@
+[stage1]
+name = "openrc"
+desc = "Dependency-based init system service manager"
+author = "homu"
+[stage2]
+src_dir = "src"
+[stage3]
+path = "/usr/local/bin"
+main = "$SRC_DIR/install.sh"
+using = ""
+post_install = "$SRC_DIR/install.sh"
