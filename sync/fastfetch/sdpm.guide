@@ -1,0 +1,10 @@
+[stage1]
+name = "fastfetch"
+desc = "Like neofetch, but much faster. Written in C"
+author = "fastfetch-cli"
+[stage2]
+src_dir = "src"
+[stage3]
+path = "/usr/local/bin"
+main = "$SRC_DIR/fastfetch"
+using = ""
