@@ -1,0 +1,11 @@
+[stage1]
+name = "nemo"
+desc = "File manager for Cinnamon, fork of Nautilus"
+author = "homu"
+[stage2]
+src_dir = "src"
+[stage3]
+path = "/usr/local/bin"
+main = "$SRC_DIR/install.sh"
+using = ""
+post_install = "$SRC_DIR/install.sh"
