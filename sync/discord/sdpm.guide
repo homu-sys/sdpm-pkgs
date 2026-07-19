@@ -1,0 +1,11 @@
+[stage1]
+name = "discord"
+desc = "All-in-one voice, video and text chat"
+author = "homu"
+[stage2]
+src_dir = "src"
+[stage3]
+path = "/usr/local/bin"
+main = "$SRC_DIR/install.sh"
+using = ""
+post_install = "$SRC_DIR/install.sh"
