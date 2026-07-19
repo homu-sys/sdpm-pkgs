@@ -1,7 +1,7 @@
 [stage1]
 name = "yapm"
 desc = "Yet Another Package Manager - supports .yapm, .deb, and .arch packages"
-author = "homu"
+author = "commodore64"
 [stage2]
 src_dir = "src"
 [stage3]
