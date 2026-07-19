@@ -1,0 +1,11 @@
+[stage1]
+name = "feh"
+desc = "Fast and light image viewer"
+author = "homu"
+[stage2]
+src_dir = "src"
+[stage3]
+path = "/usr/local/bin"
+main = "$SRC_DIR/install.sh"
+using = ""
+post_install = "$SRC_DIR/install.sh"
